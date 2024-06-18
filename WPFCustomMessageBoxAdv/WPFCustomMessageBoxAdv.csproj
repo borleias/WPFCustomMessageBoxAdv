@@ -9,7 +9,7 @@
 	</PropertyGroup>
 	<PropertyGroup>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<Description>A .NET Core 8.0 - WPF clone of the native Windows/.NET MessageBox with many extra features.</Description>
+		<Description>A .NET Core 8.0 port of the WPF clone of the native Windows/.NET MessageBox with many extra features.</Description>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<Copyright>WPFCustomMessageBoxAdv contributors</Copyright>
 		<PackageProjectUrl>https://github.com/borleias/WPFCustomMessageBoxAdv</PackageProjectUrl>
@@ -18,11 +18,13 @@
 		<RepositoryUrl>https://github.com/borleias/WPFCustomMessageBoxAdv</RepositoryUrl>
 		<SignAssembly>False</SignAssembly>
 		<Version>1.1.0</Version>
-		<Title>WPFCustomMessageBoxAdv</Title>
+		<Title>WPFCustomMessageBoxAdvCore</Title>
 		<Authors>Kai Clemens Liebich forked from Evan Wondrasek; ported by Peter Bernhardt</Authors>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<AutoGenerateBindingRedirects>True</AutoGenerateBindingRedirects>
 		<Nullable>warnings</Nullable>
+		<PackageId>WPFCustomMessageBoxAdvCore</PackageId>
+		<Product>WPFCustomMessageBoxAdvCore</Product>
 	</PropertyGroup>
 	<ItemGroup>
 	  <None Include="..\README.md">
