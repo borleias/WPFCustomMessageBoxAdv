@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 	<PropertyGroup>
-		<TargetFrameworks>net461</TargetFrameworks>
+		<TargetFrameworks>net8-windows</TargetFrameworks>
 		<UseWPF>true</UseWPF>
 		<GenerateDocumentationFile>True</GenerateDocumentationFile>
 		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
@@ -10,8 +10,5 @@
 	</PropertyGroup>
 	<ItemGroup>
 	  <ProjectReference Include="..\WPFCustomMessageBoxAdv\WPFCustomMessageBoxAdv.csproj" />
-	</ItemGroup>
-	<ItemGroup>
-	  <Reference Include="System.Windows.Forms" />
 	</ItemGroup>
 </Project>

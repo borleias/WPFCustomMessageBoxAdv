@@ -1,6 +1,12 @@
 WPFCustomMessageBoxAdv
 =====================
 
+## Important Note ##
+
+This is just a port of the original *WPFCustomMessageBoxAdv* library to .NET 8.0. The original library was created by Evan Wondrasek and improved by Kai Clemens Liebich.
+
+## Introduction ##
+
 *WPFCustomMessageBoxAdv* is a WPF clone of the native Windows/.NET MessageBox with many extra features.
 
 I created this library because I wanted to use verbs for my MessageBox buttons to [help users better understand the functionality of the buttons](http://ux.stackexchange.com/a/9960/12349) - which isn't possible in the standard Windows MessageBox. With this library, you can offer your users button descriptions like `Save/Don't Save` or `Shutdown Reactor/Eject Spent Fuel Rods` rather than the standard `OK/Cancel` or `Yes/No` (although you can still use those too, if you like).
@@ -72,7 +78,7 @@ It allows to updates various widths and heights of UI components, button texts a
 
 **The MIT License**
 
-Copyright (c) 2023 Kai Clemens Liebich / Evan Wondrasek
+Copyright (c) 2024 Kai Clemens Liebich / Evan Wondrasek / Ported by: Peter Bernhardt
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

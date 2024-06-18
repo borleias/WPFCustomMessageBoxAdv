@@ -1,6 +1,6 @@
 ﻿// -----------------------------------------------------------------------
 // <copyright file="Util.cs">
-// TODO: Update copyright text.
+// Copyright (c) 2024
 // </copyright>
 // -----------------------------------------------------------------------
 
@@ -13,10 +13,15 @@ namespace WPFCustomMessageBoxAdv
     using System.Windows.Media.Imaging;
 
     /// <summary>
-    /// TODO: Update summary.
+    /// Provides utility methods for the WPFCustomMessageBoxAdv namespace.
     /// </summary>
     internal static class Util
     {
+        /// <summary>
+        /// Converts an Icon to an ImageSource.
+        /// </summary>
+        /// <param name="icon">The Icon to convert.</param>
+        /// <returns>The converted ImageSource.</returns>
         internal static ImageSource ToImageSource(this Icon icon)
         {
             ImageSource imageSource = Imaging.CreateBitmapSourceFromHIcon(
